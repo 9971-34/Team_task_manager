@@ -13,8 +13,8 @@ export default defineConfig({
     }
   },
   preview: {
-    allowedHosts: ['tender-purpose-production-5b86.up.railway.app'],
-    host: '0.0.0.0'
+    allowedHosts: true,
+    host: '0.0.0.0',
     port: 3000
   }
 });
